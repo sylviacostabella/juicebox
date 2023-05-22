@@ -1,4 +1,4 @@
-const PORT = 3000;
+const {PORT = 3000} = process.env
 require('dotenv').config();
 
 // remove this once you confirm it works
